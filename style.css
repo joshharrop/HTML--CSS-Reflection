@@ -2,24 +2,6 @@ body, html {
   height: 100%;
 }
 
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/happy-diverse-office-workers-team-laughing-together-group-meeting-cheerful-funny-joke-work-corporate-business-excited-smiling.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
 .icon-bar {
   width: 100%;
   background-color: #555;
@@ -80,4 +62,26 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 50px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
