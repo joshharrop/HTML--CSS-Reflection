@@ -1,28 +1,11 @@
 body, html {
     height: 100%;
+    font-family: Arial;
 }
-
-
-.icon-bar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
+.heading{
+  font-weight: bold;
+  font-size: 100px;
 }
-
-.icon-bar a {
-  float: left;
-  text-align: center;
-  width: 20%;
-  padding: 20px 0;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
-}
-
-.icon-bar a:hover {
-  background-color: #000;
-}
-
 .active {
   background-color: #04AA6D;
 }
@@ -61,8 +44,41 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 50px;
+  font-size: 75px;
+
+  
 }
+.centered2{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+
+}
+
+
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 20px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
 
 .flex-container {
  
@@ -72,16 +88,15 @@ body, html {
   
   
   justify-content: space-around;
-  
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
 .flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 200px;
+  background: rgb(224, 196, 190);
+  padding: 25px;
+  width: 500px;
   height: 150px;
   margin-top: 10px;
   line-height: 150px;
@@ -90,3 +105,4 @@ body, html {
   font-size: 25px;
   text-align: center;
 }
+
