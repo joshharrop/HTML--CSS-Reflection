@@ -3,6 +3,19 @@ body, html {
   font-family: Arial;
 }
 
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
 .heading {
   font-weight: bold;
   font-size: 100px;
